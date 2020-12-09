@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="js/slicknav/slicknav.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Page Wrapper -->
+<div class="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="header clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-lg-3">
+                    <div class="site-branding">
+                        <div class="wrap">
+                            <h1 class="site-title"><a href="index.html" rel="home"><img src="1x/Recurso 2.png" alt="Antarctica"></a></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-8 col-lg-9">
+                    <div class="navigation-top clearfix">
+                        <div class="search-form-wrap">
+                            <div id="search-toggle" class="search-toggle"><i class="fa fa-search" aria-hidden="true"></i></div>
+                            <form action="#" class="header-search-form">
+                               <input type="text" name="s" id="s" value="" placeholder="Search">
+                               <input type="submit" id="search-submit" value="Go">
+                            </form>
+                        </div>
+                        <nav id="site-navigation" class="main-navigation">
+                            <div class="menu-primary-container">
+                                <ul class="menu-primary clearfix">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about-us.html">¿Quienés somos?</a></li>
+                                    <li><a href="services.html">Productos</a></li>
+                                    <li><a href="portfolio.html">Para playa</a></li>
+                                   
+                                    <li><a href="contact.html">Encuentranos</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sub-header large" style="background-image: url('1x/sunset-5263744_1920.jpg');"llkl>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <h1 class="title">Contactanos</h1>
+        </div>
+    </div>
+
+
+    <!-- Container -->
+    <div class="container main-container contact-page">
+
+        <!-- Main Content -->
+        <main id="main" class="main">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3 class="section-title">Contactanos</h3>
+                    <p class="section-description">Pide tu pedido, lo preparamos y pasa a recogerlo</p>
+                    <ul class="list-unstyled contacts">
+                        <li>
+                            <span class="title">Dirección:</span>
+                            <div class="content">
+                                <address>
+                                    709 Davis Lane  Denver, CO 80216, Shingleton Road Three Rivers, MI 49093
+                                </address>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="title">Número:</span>
+                            <div class="content">
+                                <p>+11 9195825883 - <span>Office</span></p>
+                            
+                            </div>
+                        </li>
+                        <li>
+                        
+                        <li>
+                            <span class="title">Siguenos en:</span>
+                            <div class="content">
+                               <span class="follow-us">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <h3 class="section-title">Crea tu pedido</h3>
+                    <form id="contact-form" class="contact-form" method="post" action="php/contact_form.php">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><input type="text" name="name" placeholder="Nombre*" class="required" title="*Coloca tu nombre"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><input type="email" name="email" placeholder="Correo*" class="required email" title="*Coloca tu correo"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><input type="text" name="phone" placeholder="Número"></p>
+                            </div>
+                        
+                            <div class="col-xs-12">
+                                <p><textarea name="message" placeholder="Pedido / Sugerencias"></textarea></p>
+                            </div>
+                            <div class="col-xs-12">
+                                <input type="submit" class="submit-button" value="Enviar pedido">
+                                <img id="progress-loader" src="images/ajax-loader.gif" alt="Sending....">
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="status"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>¿Algo que te guste?   Pidelo</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn" href="#">Pedir ahora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   <!-- Footer -->
+   <footer id="footer" class="footer">
+
+    <div class="sub-footer text-center">
+        <div class="container">
+            <p>Copyright &copy; 2020. Derechos Reservados SuperDeli</a></p>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+
+<!-- Required Plugins and Scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-migrate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slicknav/jquery.slicknav.min.js"></script>
+<script src="js/jquery.form.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
